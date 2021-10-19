@@ -65,9 +65,7 @@ GROUP BY amount
 HAVING COUNT(amount) > 250  
 ORDER BY COUNT(amount) DESC;
 
-SELECT customer_id
-FROM payment
-WHERE customer_id BETWEEN 380 AND 430
+
 
 
 10. Within the film table, how many rating categories are there? And what rating has the most
